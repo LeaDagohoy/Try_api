@@ -1,0 +1,56 @@
+h2, h3 {
+  font-family: Arial, sans-serif;
+}
+
+input {
+  padding: 5px;
+  margin-right: 5px;
+}
+
+button {
+  padding: 5px 10px;
+  margin: 2px;
+  cursor: pointer;
+}
+
+.error {
+  color: red;
+  font-style: italic;
+}
+
+ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+li {
+  background: #f9f9f9;
+  margin-bottom: 6px;
+  padding: 10px;
+  border-radius: 6px;
+}
+li:hover {
+  background: #e0f7fa;
+}
+/* Toast message styling */
+.toast {
+  position: fixed;
+  bottom: 30px;
+  right: 30px;
+  background: #333;
+  color: #fff;
+  padding: 15px 25px;
+  border-radius: 10px;
+  box-shadow: 0 4px 10px rgba(0,0,0,0.3);
+  animation: fadeInOut 3s ease forwards;
+  font-size: 16px;
+  z-index: 9999;
+}
+
+/* Toast fade-in/out animation */
+@keyframes fadeInOut {
+  0% { opacity: 0; transform: translateY(30px); }
+  15% { opacity: 1; transform: translateY(0); }
+  85% { opacity: 1; transform: translateY(0); }
+  100% { opacity: 0; transform: translateY(30px); }
+}

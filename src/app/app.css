@@ -1,0 +1,49 @@
+/* app.component.css - simple styling */
+.container {
+  max-width: 760px;
+  margin: 24px auto;
+  padding: 16px;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.search {
+  display: flex;
+  gap: 8px;
+  margin-bottom: 12px;
+}
+
+.search input {
+  flex: 1;
+  padding: 8px;
+  font-size: 14px;
+}
+
+button {
+  padding: 8px 10px;
+  cursor: pointer;
+}
+
+.loading { color: #666; }
+.error { color: #b00020; }
+
+.weather-card {
+  border: 1px solid #eee;
+  padding: 12px;
+  border-radius: 8px;
+  margin-bottom: 12px;
+  background: #f9fbff;
+}
+
+.weather-main { display: flex; gap: 12px; align-items: center; }
+.icon { font-size: 40px; width:60px; text-align:center; }
+.temp { font-size: 28px; font-weight: 600; }
+.desc { text-transform: capitalize; color: #444; }
+
+.tasks ul { list-style: none; padding: 0; }
+.tasks li {
+  border-bottom: 1px dashed #ddd;
+  padding: 8px 0;
+}
+.tag { background: #e8f4ff; padding: 2px 6px; border-radius: 4px; margin-left: 8px; font-size: 12px; }
+.remove { margin-top: 6px; }
+.no-tasks { color: #666; }
